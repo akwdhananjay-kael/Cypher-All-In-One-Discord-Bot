@@ -4,7 +4,7 @@ import json
 with open("info.json", "r") as f:
     config_data = json.load(f)
 
-TOKEN = os.environ.get("DISCORD_TOKEN") or config_data.get("TOKEN", "")
+("TOKEN", "")
 No_Prefix = config_data.get("np", [])
 NAME = config_data.get("BotName", "Cypher")
 server = config_data.get("serverLink", "")
