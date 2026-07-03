@@ -167,5 +167,5 @@ class Cypher(commands.AutoShardedBot):
 
 def setup_bot():
     intents = discord.Intents.all()
-    bot = Cypher(intents=intents)
+    bot = Beetle(intents=intents)
     return bot
