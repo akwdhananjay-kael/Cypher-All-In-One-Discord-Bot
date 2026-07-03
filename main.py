@@ -1,5 +1,5 @@
 import os
-from core.Beetle import Beetle
+from core.Cypher import Cypher 
 from discord.ext.commands import Context
 from discord.ext import commands
 import discord
