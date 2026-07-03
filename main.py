@@ -1,5 +1,5 @@
 import os
-from core.Cypher import Cypher
+from core.Beetle import Beetle
 from discord.ext.commands import Context
 from discord.ext import commands
 import discord
@@ -30,7 +30,7 @@ token = os.getenv("TOKEN")
 print("DEBUG TOKEN:",token)
 
         
-client = Cypher()
+client = Beetle()
 
 tree = client.tree
 
