@@ -30,7 +30,7 @@ token = os.getenv("TOKEN")
 print("DEBUG TOKEN:",token)
 
         
-client = Beetle()
+client = Cypher()
 
 tree = client.tree
 
