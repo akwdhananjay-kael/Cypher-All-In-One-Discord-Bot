@@ -5,7 +5,7 @@ colorama==0.4.6
 Pillow==10.4.0
 python-chess==1.999
 pytz==2024.1
-lavalink==5.0.1
+lavalink==5.1.0
 yarl==1.9.4
 psutil==5.9.8
 wavelink==3.4.1
