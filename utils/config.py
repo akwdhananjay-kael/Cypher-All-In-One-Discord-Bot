@@ -6,11 +6,11 @@ with open("info.json", "r") as f:
 
 ("TOKEN", "")
 No_Prefix = config_data.get("np", [])
-NAME = config_data.get("BotName", "Cypher")
+NAME = config_data.get("BotName", "Beetle")
 server = config_data.get("serverLink", "")
 ch = "https://discord.com/channels/699587669059174461/1271825678710476911"
 OWNER_IDS = config_data.get("OWNER_IDS", [])
-BotName = config_data.get("BotName", "Cypher")
+BotName = config_data.get("BotName", "Beetle")
 serverLink = config_data.get("serverLink", "")
 whCL = config_data.get("wh_cl", "")
 whBL = config_data.get("wh_bl", "")
