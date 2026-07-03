@@ -27,7 +27,7 @@ os.environ["JISHAKU_NO_UNDERSCORE"] = "True"
 os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
 token = os.getenv("TOKEN")
-
+print("TOKEN:", token)
 
         
 client = Cypher()
